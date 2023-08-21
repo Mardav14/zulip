@@ -87,7 +87,7 @@ export function build_page() {
         full_name: people.my_full_name(),
         date_joined_text: get_parsed_date_of_joining(),
         page_params,
-        development: page_params.development_environment,
+        development: true,
         enable_sound_select:
             user_settings.enable_sounds || user_settings.enable_stream_audible_notifications,
         zuliprc: "zuliprc",

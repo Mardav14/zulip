@@ -136,7 +136,7 @@ export function get_topic_popover_content_context({stream_id, topic_name, url}) 
         url,
         visibility_policy,
         all_visibility_policies,
-        development: page_params.development_environment,
+        development: true,
     };
 }
 

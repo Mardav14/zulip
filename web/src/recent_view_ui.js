@@ -417,7 +417,7 @@ function format_conversation(conversation_data) {
         );
         // The following two fields are not specific to this context, but this is the
         // easiest way we've figured out for passing the data to the template rendering.
-        context.development = page_params.development_environment;
+        context.development = true;
         context.all_visibility_policies = user_topics.all_visibility_policies;
 
         // Since the css for displaying senders in reverse order is much simpler,
